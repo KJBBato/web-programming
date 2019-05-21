@@ -1,0 +1,8 @@
+.comment_pg {
+	display: grid;
+	grid-template-columns: 100px 750px 25px;
+  	grid-template-rows: auto;
+  	padding-top: 10px;
+  	padding-bottom: 10px;
+  	align-items: center;
+}

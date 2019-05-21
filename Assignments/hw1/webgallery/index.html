@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<title>The Web Gallery</title>
+	<link href="style/main.css" rel="stylesheet" type="text/css"/>
+    <link href="style/form.css" rel="stylesheet" type="text/css"/>
+    <link href="style/image.css" rel="stylesheet" type="text/css"/>
+    <link href="style/comment.css" rel="stylesheet" type="text/css"/>
+    <link href="style/comment_form.css" rel="stylesheet" type="text/css"/>
+    <link href="style/comment_pagination.css" rel="stylesheet" type="text/css"/>
+</head>
+</head>
+<body>
+	<header>
+		<a href="/" id="title">Web Gallery</a>
+	</header>
+	
+	<form class="complex_form" id="add_image_form">
+		<div class="form_title">Add an Image</div>
+		<input class="form_element" id="image_user" type="text" placeholder="Enter your name" name="author" required/>
+		<input class="form_element" id="image_title" type="text" placeholder="Enter title" name="title" required/>
+		<input class="form_element" id="image_url" type="text" placeholder="Enter image URL" name="image" required/>
+		<button class="btn" type="submit">Post your Image</button>
+	</form>
+	<div id="image"></div>
+	<div id="comment_form"></div>
+	<div id="comments"></div>
+	<div id="comment_pagination"></div>
+	<footer>
+		<a href="/credits.html">credits</a>
+	</footer>
+	<script src="js/api.js"></script>
+	<script src="js/index.js"></script>
+</body>
+</html>
